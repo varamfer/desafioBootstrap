@@ -1,17 +1,12 @@
 /*FUENTE IMPORTADA DE GOOGLE FONTSs*/
 @font-face{
     font-family: "Raleway";
-    src: url(../fonts/Raleway-VariableFont_wdth\,wght.ttf);
-}
-
-@font-face{
-    font-family: "Raleway";
     src: url(../fonts/Raleway-VariableFont_wght.ttf);
 }
 
 @font-face{
   font-family: "Raleway";
-  src: url(./fonts/Raleway-VariableFont_wdth\,wght.ttf);
+  src: url(./fonts/Raleway-VariableFont_wght.ttf);
 }
 /*FIN IMPORTADA DE GOOGLE FONTSs*/
 
