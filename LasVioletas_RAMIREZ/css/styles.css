@@ -48,11 +48,7 @@ a {
     color: grey;
 }
 
-/*ol {
-    list-style-type: decimal;
-    font-family: "Raleway",sans-serif;
-    color:rgb(103, 99, 107);
-}
+
 /*FIN ESTILO TITULOS y LINKS*/
 
 /*ESTILO GLOBAL*/
@@ -64,47 +60,11 @@ header {
   border-bottom: solid 3px rgb(126, 124, 128);
   }
 
-  /*
-.grid-container {  
-    display: grid;
-    grid-template-columns: 0.050fr 7.6fr 0.05fr;
-    grid-template-rows: 0.1fr 2.6fr 0.2fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". grid-navBar ."
-      ". grid-main ."
-      ". grid-footer .";
-  }
-  */
 /*FIN STILO GLOBAL*/
 
 
 /*ESTILO HEADER*/
 
-/*
-.grid-navBar {  
-    display: grid;
-    grid-template-columns: 0.6fr 0.9fr 1.5fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "grid-navBar-logo grid-navBar-white grid-navBar-manu";
-    grid-area: grid-navBar;
-    border-bottom: solid 3px rgb(126, 124, 128);
-    padding-right: 10px;
-
-  }
-  
-  .grid-navBar-logo { 
-    grid-area: grid-navBar-logo; 
-    justify-self: center;
-    align-self: center;
-  }
-  */
   .bg-light {
     background-color: white !important;
 }
@@ -142,61 +102,10 @@ header {
 .navbar-nav a:hover {
 color: aquamarine !important;
 }
-/*
-.grid-navBar-white { 
-    grid-area: grid-navBar-white; 
-  }
-  
-  @media (max-width: 768px) {
-    .grid-navBar-white {
-     visibility: hidden;
-    }
-  }
-
-  .grid-navBar-manu { 
-    grid-area: grid-navBar-manu; 
-    justify-self: stretch;
-    align-self: center;
-    margin: 0% 0% 0% 0%;
-  }
-    */
-
-
 
 .navbar-collapse{
   justify-content: flex-end;
 }
-
-/*
-.lista-navegacion li {
-  transition: transform .2s; 
-}
-
-.lista-navegacion li:hover {
-  transform: scale(1.2);
-}
-
-
-.lista-navegacion a:hover {
-  color: aquamarine;
-}
-
-
-
-@media (max-width: 768px) {
-  .lista-navegacion {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.lista-navegacion li {
-    color: darkviolet;
-    list-style-type: none;
-}
-
-  */
-
 
 /* FIN ESTILO HEADER*/
 
