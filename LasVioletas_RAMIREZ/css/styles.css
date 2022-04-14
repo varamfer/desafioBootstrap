@@ -60,6 +60,11 @@ html{
     margin: 0px 0px 0px 0px;
 }
 
+header {
+  border-bottom: solid 3px rgb(126, 124, 128);
+  }
+
+  /*
 .grid-container {  
     display: grid;
     grid-template-columns: 0.050fr 7.6fr 0.05fr;
@@ -73,11 +78,13 @@ html{
       ". grid-main ."
       ". grid-footer .";
   }
+  */
 /*FIN STILO GLOBAL*/
 
 
 /*ESTILO HEADER*/
 
+/*
 .grid-navBar {  
     display: grid;
     grid-template-columns: 0.6fr 0.9fr 1.5fr;
@@ -97,8 +104,46 @@ html{
     justify-self: center;
     align-self: center;
   }
-  
-  .grid-navBar-white { 
+  */
+  .bg-light {
+    background-color: white !important;
+}
+
+  .navbar-brand {
+    margin-left: 20px;
+  }
+
+  .nav-link {
+    font-size: x-large;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: darkviolet;
+}
+ 
+.navbar-nav {
+  display: flex;
+  background-color:white;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+ font-family: "Raleway",sans-serif;
+}
+
+.navbar-nav a {
+  transition: transform .2s; 
+}
+
+.navbar-nav a:hover {
+  transform: scale(1.2);
+}
+
+.navbar-nav a:hover {
+color: aquamarine !important;
+}
+/*
+.grid-navBar-white { 
     grid-area: grid-navBar-white; 
   }
   
@@ -114,18 +159,15 @@ html{
     align-self: center;
     margin: 0% 0% 0% 0%;
   }
-  
+    */
 
-.lista-navegacion {
-    display: flex;
-    background-color:white;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 0px;
-    padding-right: 0px;
-   font-family: "Raleway",sans-serif;
+
+
+.navbar-collapse{
+  justify-content: flex-end;
 }
 
+/*
 .lista-navegacion li {
   transition: transform .2s; 
 }
@@ -153,7 +195,7 @@ html{
     list-style-type: none;
 }
 
-
+  */
 
 
 /* FIN ESTILO HEADER*/
@@ -623,36 +665,7 @@ textarea{
 
 
 /*ESTILO FOOTER*/
-.grid-footer {  
-    display: grid;
-    grid-template-columns: 1fr 0.5fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "grid-footer-logo grid-footer-address grid-footer-fb";
-    grid-area: grid-footer;
-  }
-  
-  .grid-footer-logo { 
-    grid-area: grid-footer-logo; 
-    justify-self: right;
-    align-self: center;
-  }
-  
-  .grid-footer-address { 
-    grid-area: grid-footer-address; 
-    color:rgb(126, 124, 128);
-    text-align: left;
-    justify-self: center;
-    align-self: center;
-  }
-  
-  .grid-footer-fb { 
-    grid-area: grid-footer-fb; 
-    justify-self: left;
-    align-self: center;
-  }
+
 /*FIN ESTILO FOOTER*/
 
 /*GRIDS*/
